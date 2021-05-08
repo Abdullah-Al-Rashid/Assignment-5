@@ -9,7 +9,7 @@ function calculate () {
   diameter = parseInt(diameter)
   // Calculate the Area of the Circle using the inputted diameter
   // "Math.PI is Pi"
-  number = Math.PI * (diameter / 2)**2
+  number = Math.PI * (diameter / 2) ** 2
   alert(number)
 }
 
