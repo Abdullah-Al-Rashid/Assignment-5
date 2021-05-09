@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Elon Musk Tribute">
+    <meta name="description" content="Area and Circumference Calculator">
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="author" content="Abdullah Al-Rashid">
@@ -10,23 +10,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
   </head>
-  <body style="background-color: lightgrey">
-      <h1 style="font-family: 'Lato', sans-serif;font-size: 250%; ">Area and Circumference of a Circle</h1>
+  <body style="background-color:lavender;">
 
-      <div class="city">
-      <h4>A quick and wasy solution to figuring out the Area and/or Circumference of your Circle by using the diameter:</h4>
-      <p style="font-size: 110%;">Need to find out the Area of your Circle?</p>
+      <h1 style="font-family: 'Lato', sans-serif;font-size: 250%;text-align: center; ">Area and Circumference of a Circle</h1>
+
+      <h4 style="font-family: 'Francois One', sans-serif;font-size: 110%;text-align: center;">A quick and wasy solution to figuring out the Area and/or Circumference of your Circle by using the diameter:</h4>
+
+      <div class="hello1">
+      <p>Need to find out the Area of your Circle?</p>
       <label for="area">Diameter:</label>
-      <input type="text" id="area">
+      <input type="text" id="area" placeholder="Enter Value">
       <br><br>
       <button id="calculate">Calculate</button>
+      <p id="answer"></p>
       <br><br>
-      <p style="font-size: 110%;">Need to find out the Circumference of your Circle?</p>
+      <p>Need to find out the Circumference of your Circle?</p>
       <label for="circumference">Diameter:</label>
-      <input type="text" id="circumference">
+      <input type="text" id="circumference" placeholder="Enter Value">
       <br><br>
       <button id="findout">Calculate</button>
+      <p id="result"></p>
       </div>
+
+      <img src="./images/circle.ppm" alt="Parts of a Circle">
     <script src="script.js"></script>
   </body>
 </html>

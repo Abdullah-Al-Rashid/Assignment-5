@@ -10,7 +10,7 @@ function calculate () {
   // Calculate the Area of the Circle using the inputted diameter
   // "Math.PI is Pi"
   number = Math.PI * (diameter / 2) ** 2
-  alert(number)
+  document.getElementById('answer').innerHTML = number
 }
 
 document.getElementById('findout').addEventListener('click', findout)
@@ -22,5 +22,5 @@ function findout () {
   // Calculate the Area of the Circle using the inputted diameter
   // "Math.PI is Pi"
   number = 2 * Math.PI * (diameter / 2)
-  alert(number)
+  document.getElementById('result').innerHTML = number
 }
